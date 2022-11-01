@@ -2,13 +2,13 @@ package dev.decagon.simple;
 
 public class EvenCount {
     public static int evenDigitCount(int[] num){
-        int evenCount=0;
+        int evenCounter=0;
         for (int item: num){
             if(String.valueOf(item).length()%2==0){
-                evenCount+=1;
+                evenCounter+=1;
             }
         }
-        return evenCount;
+        return evenCounter;
     }
 
     public static void main(String[] args) {
